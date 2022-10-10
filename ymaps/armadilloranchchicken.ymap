@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-5634.959473" y="-3125.351807" z="-415.279417"/>
+	<streamingExtentsMax x="-4353.934082" y="-1725.166260" z="411.196335"/>
+	<entitiesExtentsMin x="-5234.959473" y="-2725.351807" z="-15.279417"/>
+	<entitiesExtentsMax x="-4753.934082" y="-2125.166260" z="11.196335"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_chickencoopcart01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-4788.913086" y="-2712.648438" z="-15.279417"/>
+			<rotation w="0.902125" x="-0.000000" y="0.000000" z="0.431474"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_chickencoopcart01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-4753.934082" y="-2722.271973" z="-14.648229"/>
+			<rotation w="0.638630" x="0.036557" y="0.022073" z="-0.768328"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_chickencoopcart01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-4756.080078" y="-2725.351807" z="-14.764225"/>
+			<rotation w="0.875602" x="-0.008756" y="0.007863" z="-0.482891"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_chickencoopcart01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-5163.414551" y="-2125.743408" z="11.196335"/>
+			<rotation w="0.824024" x="-0.028776" y="-0.019747" z="-0.565479"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_chickencoopcart01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-4826.725098" y="-2674.243652" z="-13.546701"/>
+			<rotation w="0.040553" x="-0.000000" y="0.000000" z="0.999177"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_chickencoopcart01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-5191.421875" y="-2131.595459" z="11.033035"/>
+			<rotation w="0.448595" x="0.007830" y="0.015597" z="-0.893565"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_chickencoopcart01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-5234.959473" y="-2125.166260" z="11.139376"/>
+			<rotation w="0.463822" x="0.008096" y="-0.015461" z="0.885757"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>
