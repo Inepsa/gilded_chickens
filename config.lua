@@ -1,15 +1,15 @@
 
 Config = {}
 
-Config.defaultlang = "en" -- Default language ("en" English, "es" Español)
+Config.defaultlang = "en" -- Default language. Create your own language file in the language folder if you need it
 
-Config.SearchTimeMin = 5000 						-- Minimum time, in milliseconds (1000 milliseconds = 1 second), taken to search a Chicken nest.
-Config.SearchTimeMax = 7000 						-- Maximum time, in milliseconds (1000 milliseconds = 1 second), taken to search a Chicken nest.
-Config.SearchDelay = 600				 			-- Time, in seconds, before a Chicken nest can be search again.
-Config.SearchRewardCount = {1,3} 					-- How many Chicken eggs players can find per nest; Set this to a table like so {min,max} for random reward count per search; eg {0,3} will mean a random reward count between 0 and 3.
+Config.SearchTimeMin = 5000 			-- Minimum time, in milliseconds (1000 milliseconds = 1 second), taken to search a Chicken nest.
+Config.SearchTimeMax = 7000 			-- Maximum time, in milliseconds (1000 milliseconds = 1 second), taken to search a Chicken nest.
+Config.SearchDelay = 600				-- Time, in seconds, before a Chicken nest can be search again.
+Config.SearchRewardCount = {1,3} 		-- How many Chicken eggs players can find per nest; Set this to a table like so {min,max} for random reward count per search; eg {0,3} will mean a random reward count between 0 and 3.
 
-Config.NestGatherItem = "egg" 						-- The DB name of the item pulled from the nest
-Config.NestGatherItemLabel = _U("nestgather_label") -- Item label of what is gathererd from the nest
+Config.NestGatherItem = "egg" 			-- The DB name of the item pulled from the nest
+Config.NestGatherItemLabel = _U("nestgather_label") -- Item label of what is gathererd from the nest. This is in youe language file.
 
 Config.ChickenNests = { -- vector3(x,y,z)
 	
@@ -22,7 +22,7 @@ Config.ChickenNests = { -- vector3(x,y,z)
 	vector3(-299.06, 841.76, 120.06),
 	vector3(-403.66, 941.26, 117.97),
 
-	--house between val and emerald ranch
+	--house between valentine and emerald ranch
 	vector3(1134.67, 499.69, 96.29),
 	vector3(1130.5, 505.69, 96.66),
 	vector3(1111.33, 444.97, 96.31),
