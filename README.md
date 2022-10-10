@@ -1,5 +1,9 @@
 # gilded_chickens
-RedM resource allowing players to search chicken nests to gather eggs setup around the map. This has ymaps for coops and nests in some spots where they are not native
+-RedM resource for VORP framework allowing players to search chicken nests to gather eggs setup around the map. 
+-Animation for gathering
+-Can't research for pre set amount of time
+-Can set random number output
+-This has ymaps for coops and nests in some spots where they are not native to game. Very easy to add more
 
 # Requirements
 - VORP Core 
@@ -14,7 +18,7 @@ RedM resource allowing players to search chicken nests to gather eggs setup arou
 # Notes
 - More chicken nest spots can be added in config
 
-## Original Code From
+## Code Used From
 adamdrakon's VORP Crawfish
 - https://github.com/adamdrakon
 
