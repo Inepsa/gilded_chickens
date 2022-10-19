@@ -1,4 +1,4 @@
-# RedM resource for VORP framework. The Best Framework.
+# RedM resource for VORP framework.
 -gilded_chickens allows players to search chicken nests to gather eggs setup around the map. 
 -Animation for gathering
 -Can't search again for a pre-set amount of time
