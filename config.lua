@@ -1,15 +1,15 @@
 
 Config = {}
 
-Config.defaultlang = "en" -- Default language. Create your own language file in the language folder if you need it
+Config.defaultlang = "en" -- Default language ("en" English, "es" Español)
 
-Config.SearchTimeMin = 5000 			-- Minimum time, in milliseconds (1000 milliseconds = 1 second), taken to search a Chicken nest.
-Config.SearchTimeMax = 7000 			-- Maximum time, in milliseconds (1000 milliseconds = 1 second), taken to search a Chicken nest.
-Config.SearchDelay = 600				-- Time, in seconds, before a Chicken nest can be search again.
-Config.SearchRewardCount = {1,3} 		-- How many Chicken eggs players can find per nest; Set this to a table like so {min,max} for random reward count per search; eg {0,3} will mean a random reward count between 0 and 3.
+Config.SearchTimeMin = 5000 						-- Minimum time, in milliseconds (1000 milliseconds = 1 second), taken to search a Chicken nest.
+Config.SearchTimeMax = 7000 						-- Maximum time, in milliseconds (1000 milliseconds = 1 second), taken to search a Chicken nest.
+Config.SearchDelay = 600				 			-- Time, in seconds, before a Chicken nest can be search again.
+Config.SearchRewardCount = {1,3} 					-- How many Chicken eggs players can find per nest; Set this to a table like so {min,max} for random reward count per search; eg {0,3} will mean a random reward count between 0 and 3.
 
-Config.NestGatherItem = "egg" 			-- The DB name of the item pulled from the nest
-Config.NestGatherItemLabel = _U("nestgather_label") -- Item label of what is gathererd from the nest. This is in youe language file.
+Config.NestGatherItem = "egg" 						-- The DB name of the item pulled from the nest
+Config.NestGatherItemLabel = _U("nestgather_label") -- Item label of what is gathererd from the nest
 
 Config.ChickenNests = { -- vector3(x,y,z)
 	
@@ -22,7 +22,7 @@ Config.ChickenNests = { -- vector3(x,y,z)
 	vector3(-299.06, 841.76, 120.06),
 	vector3(-403.66, 941.26, 117.97),
 
-	--house between valentine and emerald ranch
+	--house between val and emerald ranch
 	vector3(1134.67, 499.69, 96.29),
 	vector3(1130.5, 505.69, 96.66),
 	vector3(1111.33, 444.97, 96.31),
@@ -72,5 +72,13 @@ Config.ChickenNests = { -- vector3(x,y,z)
 	vector3(-5191.52, -2160.14, 12.16),
 	vector3(-5163.96, -2125.37, 12.49),
 	vector3(-5192.08, -2131.94, 12.23),
-	vector3(-5233.87, -2125.68, 12.2)
+	vector3(-5233.87, -2125.68, 12.2),
+
+	--NE heartland oilfield ranch
+	vector3(821.47, 857.56, 117.04),
+	vector3(820.56, 867.79, 116.79),
+	vector3(812.28, 872.46, 117.18),
+	vector3(767.57, 874.37, 121.89),
+	vector3(770.33, 879.15, 121.89)
+
 }
