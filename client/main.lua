@@ -1,3 +1,4 @@
+progressbar = exports.vorp_progressbar:initiate()
 
 RegisterNetEvent("gilded_chickens:try_search")
 RegisterNetEvent("gilded_chickens:do_search")
