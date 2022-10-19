@@ -15,27 +15,13 @@ end)
 AddEventHandler("gilded_chickens:do_search",function(nestIndex, searchTime)
 	local playerPed = PlayerPedId()
 	TaskStartScenarioInPlace(playerPed, GetHashKey('WORLD_HUMAN_CROUCH_INSPECT'), searchTime, true, false, false, false)
-	exports['progressBars']:startUI(searchTime, _U("searching"))
+	--exports['progressBars']:startUI(searchTime, _U("searching"))
+	progressbar.start(_U("searching"), searchTime, 'linear' )
 	Citizen.Wait(searchTime)
 	ClearPedTasksImmediately(playerPed)
 	nearest = 0
 	searching = false
 	TriggerServerEvent("gilded_chickens:do_search",nestIndex)
-end)
-
-AddEventHandler("gilded_chickens:harvest",function()
-	local playerPed = PlayerPedId()
-	local dict, anim = "mech_skin@chicken@field_dress", "success"
-	RequestAnimDict(dict)
-	while not HasAnimDictLoaded(dict) do
-		Wait(0) 
-	end
-	TaskPlayAnim(playerPed, dict, anim, 1.0, 1.0, 4000, 16, 0.0, false, false, false, '', false)
-	exports['progressBars']:startUI(5000, _U("harvesting"))
-	Citizen.Wait(5000)
-	ClearPedTasksImmediately(playerPed)
-	RemoveAnimDict(dict)
-	TriggerServerEvent("gilded_chickens:harvest")
 end)
 
 Citizen.CreateThread(function()

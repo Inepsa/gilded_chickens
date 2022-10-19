@@ -108,15 +108,6 @@ AddEventHandler("gilded_chickens:abort_search",function()
 	AbortSearch(source)
 end)
 
-local harvesting = {}
-AddEventHandler("gilded_chickens:harvest", function()
-	local _source = source
-	if not harvesting[_source] then return end
-	VORP_INV.addItem(_source, Config.CrawfishGivenItemName, harvesting[_source])
-	TriggerClientEvent("vorp:TipRight", _source, _UP("harvested", {count=harvesting[_source],item=Config.CrawfishGivenItemLabel}), 5000)
-	harvesting[_source] = nil
-end)
-
 AddEventHandler("playerDropped", function(reason)
 	AbortSearch(source)
 end)
